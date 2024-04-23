@@ -37,7 +37,7 @@ const About = () => {
                 className="w-full lg:w-1/2"
             >
                 <div className="flex justify-center lg:justify-start">
-                    <p className={cn("my-2 maxw-xl py-6 leading-10", MontserratFont.className)}>
+                    <p className={cn("my-2 maxw-xl py-6 leading-10 text-justify", MontserratFont.className)}>
                         {ABOUT_TEXT}  
                     </p>
                 </div>

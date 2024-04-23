@@ -11,7 +11,7 @@ export const MontserratFont = Montserrat({
   subsets: ["latin"]
 })
 
-export const HERO_CONTENT = `I am a passionate Data Engineer with a knack for crafting robust and scalable data solutions. With 2 years of hands-on experience, I have honed my skills in modern data stack technologies like dbt, Airflow, Airbyte, as well as back-end technologies like PostgreSQL, MongoDB and BigQuery. My goal is to leverage my expertise to create innovative data solutions that drive business growth and deliver deep insights.`;
+export const HERO_CONTENT = `I am a passionate Data Engineer with a knack for crafting robust and scalable data solutions. With 2 years of hands-on experience, I have honed my skills in modern data stack technologies like dbt, Airflow, Airbyte, as well as backend technologies like PostgreSQL and BigQuery. My goal is to leverage my expertise to create innovative data solutions that drive business growth and deliver deep insights.`;
 
 export const ABOUT_TEXT = `In a world driven by data, I strive to write the code that turns numbers into narratives. I specialize in problem-solving, leveraging automation and AI to enhance data accuracy and efficiency. My expertise lies in crafting efficient data pipelines to extract data, model it, transform it and ensure it is always right where it needs to be. I transform complex data challenges into straightforward, effective solutions. Having had the opportunity to be a speaker in the data community, I value the power of sharing knowledge and insights to drive growth and innovation.`;
 

@@ -26,7 +26,7 @@ const Hero = () => {
                         variants={container(0)}
                         initial="hidden"
                         animate="visible"
-                        className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-7xl"
+                        className="pb-16 text-6xl font-thin tracking-tight text-center lg:mt-16 lg:text-7xl"
                     >
                         Nawfel BACHA
                     </motion.h1>
@@ -52,7 +52,7 @@ const Hero = () => {
                         variants={container(1)}
                         initial="hidden"
                         animate="visible"
-                        className={cn("my-2 max-w-xl py-6 font-light leading-8", MontserratFont.className)}
+                        className={cn("my-2 max-w-xl py-6 font-light leading-8 text-justify lg:tracking-wide", MontserratFont.className)}
                     >
                         {HERO_CONTENT}
                     </motion.p>
@@ -69,10 +69,10 @@ const Hero = () => {
                         width={0}
                         height={0}
                         sizes="100vw"
-                        style={{ width: '60%', height: 'auto' }}
+                        style={{ width: '75%', height: 'auto' }}
                         src={selfImage}
                         alt="Nawfel Bacha"
-                        className="rounded-lg opacity-90"
+                        className="rounded-lg opacity-90 "
                     />
                 </motion.div>
             </div>

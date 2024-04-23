@@ -42,7 +42,7 @@ const Experience = () => {
                             {experience.description.map((desc, index) => (
                                 <li
                                     key={index}
-                                    className={cn("mb-4 text-neutral-400", MontserratFont.className)}
+                                    className={cn("mb-4 text-neutral-400 tracking-wide", MontserratFont.className)}
                                 >
                                     - {desc}
                                 </li>

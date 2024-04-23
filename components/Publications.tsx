@@ -60,7 +60,7 @@ const Publications = () => {
                         >
                             <div>
                                 <a href={publication.link} target="_blank" className='hover:opacity-90'>
-                                    <h6 className="mb-2 font-semibold">
+                                    <h6 className="mb-2 text-lg tracking-wider">
                                         {publication.title}
                                     </h6>
                                 </a>
@@ -72,7 +72,7 @@ const Publications = () => {
                                     </span>
                                 ))}
                             </div>
-                            <div className={cn('pt-8 pb-4', MontserratFont.className)}>
+                            <div className={cn('pt-8 pb-4 tracking-wide', MontserratFont.className)}>
                                 {publication.description}
                             </div>
                             <div className='mt-auto'>
@@ -94,7 +94,7 @@ const Publications = () => {
                                 height={0}
                                 sizes="100vw"
                                 style={{ width: '60%', height: 'auto' }}
-                                className="rounded-lg opacity-100 items-center hover:opacity-90"
+                                className="mt-5 lg:mt-0 rounded-lg opacity-100 items-center hover:opacity-90"
                             />
                         </motion.a>
                     </div>

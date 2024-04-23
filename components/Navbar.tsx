@@ -43,7 +43,7 @@ const Navbar = () => {
             />
         </a>
         <div>
-          <ul className="links flex sm:flex">
+          <ul className="links flex mr-8 justify-center w-full sm:flex">
             {buttons.map((button, index) => (
               <li key={index} className={cn("text-xs mb-2 ml-3 sm:text-base sm:mr-5 sm:ml-5 hover:opacity-75 hover:text-pink-200", MontserratFont.className)}>
                 <Link href={button.id}>
