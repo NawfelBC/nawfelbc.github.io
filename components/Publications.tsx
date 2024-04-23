@@ -28,7 +28,7 @@ const Publications = () => {
     const [isLoading, setLoading] = useState(true)
 
     useEffect(() => {
-        fetch('/api/publications')
+        fetch(process.env.NEXT_PUBLIC_BASE_URL + '/api/publications')
             .then((res) => res.json())
             .then((data) => {
             setData(data)
@@ -38,8 +38,6 @@ const Publications = () => {
     
     if (isLoading) return <p>Loading publications...</p>
     if (!data) return <p>No publications found</p>
-
-    console.log(data);
 
     return (
         <div className="border-b border-neutral-900 pb-4">

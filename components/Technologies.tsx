@@ -105,7 +105,7 @@ const Technologies = () => {
                     <Image
                         src={tech.src}
                         width={100}
-                        height={100}
+                        height={0}
                         alt={tech.alt}
                     />
                 </motion.div>

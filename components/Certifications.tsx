@@ -46,10 +46,10 @@ const Certifications = () => {
                 className="rounded-2xl p-4"
             >
                 <a className="grid place-items-center" href={certification.url} target="_blank">
-                    <Image
+                    <img
                         width={350}
                         height={20}
-                        src={certification.image}
+                        src={`${process.env.NEXT_PUBLIC_BASE_URL}`+certification.image}
                         alt={certification.name}
                         className="rounded-lg opacity-100"
                     />
