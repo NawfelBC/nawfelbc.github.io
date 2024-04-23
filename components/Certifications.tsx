@@ -49,7 +49,7 @@ const Certifications = () => {
                     <img
                         width={350}
                         height={20}
-                        src={`${process.env.NEXT_PUBLIC_BASE_URL}`+certification.image}
+                        src={certification.image}
                         alt={certification.name}
                         className="rounded-lg opacity-100"
                     />

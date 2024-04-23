@@ -28,7 +28,7 @@ const Publications = () => {
     const [isLoading, setLoading] = useState(true)
 
     useEffect(() => {
-        fetch(process.env.NEXT_PUBLIC_BASE_URL + '/api/publications')
+        fetch('/api/publications')
             .then((res) => res.json())
             .then((data) => {
             setData(data)
