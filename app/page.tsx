@@ -1,12 +1,13 @@
 import About from "@/components/About";
 import Certifications from "@/components/Certifications";
-import Experience from "@/components/Experience";
+import Experiences from "@/components/Experiences";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
 import Publications from "@/components/Publications";
 import Talks from "@/components/Talks";
 import Technologies from "@/components/Technologies";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -22,11 +23,12 @@ export default function Home() {
         <Hero />
         <About />
         <Technologies />
-        <Experience />
-        {/* <Projects /> */}
+        <Experiences />
+        <Projects />
         <Certifications />
-        {/* <Talks /> */}
+        <Talks />
         <Publications />
+        <Footer />
       </div>
     </div>
   );

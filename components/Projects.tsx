@@ -3,15 +3,17 @@
 import { PROJECTS } from "@/constants";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { cn } from "@/lib/utils";
+import { PoppinsFont, MontserratFont } from "@/constants";
 
 const Projects = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div id="projects" className="border-b border-neutral-900 pb-4">
         <motion.h2
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: -100}}
             transition={{ duration: 0.5 }}
-            className="my-20 text-center text-4xl font-medium"
+            className={cn("my-20 text-center text-4xl", MontserratFont.className)}
         >
             Side Projects
         </motion.h2>
@@ -24,20 +26,20 @@ const Projects = () => {
                         transition={{ duration: 1 }}
                         className="w-full lg:w-1/4"
                     >
-                        <p className="mb-2 text-sm text-neutral-400">{project.year}</p>
+                        <p className={cn("mb-2 text-sm text-neutral-400", MontserratFont.className)}>{project.year}</p>
                     </motion.div>
                     <motion.div
                         whileInView={{ opacity: 1, x: 0 }}
                         initial={{ opacity: 0, x: 100}}
                         transition={{ duration: 1 }}
                         className="w-full max-w-xl lg:w-3/4">
-                        <h6 className="mb-2 font-semibold">
+                        <h6 className={cn("mb-2 text-lg", MontserratFont.className)}>
                             {project.title}
                         </h6>
                         {project.description.map((desc, index) => (
                             <li
                                 key={index}
-                                className="mb-4 text-neutral-400"
+                                className={cn("mb-4 text-neutral-400 tracking-wide", MontserratFont.className)}
                             >
                                 {desc}
                             </li>

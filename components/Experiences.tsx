@@ -5,16 +5,16 @@ import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { PoppinsFont, MontserratFont } from "@/constants";
 
-const Experience = () => {
+const Experiences = () => {
   return (
-    <div id="experience" className="border-b border-neutral-900 pb-4">
+    <div id="experiences" className="border-b border-neutral-900 pb-4">
         <motion.h2
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: -100}}
             transition={{ duration: 0.5 }}
             className={cn("my-20 text-center text-4xl", MontserratFont.className)}
         >
-            Experience
+            Experiences
         </motion.h2>
         <div>
             {EXPERIENCES.map((experience, index) => (
@@ -61,4 +61,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default Experiences

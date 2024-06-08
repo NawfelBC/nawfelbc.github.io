@@ -18,12 +18,16 @@ const buttons = [
     id: "#technologies"
   },
   {
-    title: "Experience",
-    id: "#experience"
+    title: "Experiences",
+    id: "#experiences"
   },
   {
     title: "Certifications",
     id: "#certifications"
+  },
+  {
+    title: "Talks",
+    id: "#talks"
   },
   {
     title: "Publications",
