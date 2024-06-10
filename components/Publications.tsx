@@ -28,7 +28,7 @@ const Publications = () => {
     const [isLoading, setLoading] = useState(true)
 
     useEffect(() => {
-        fetch('/api/publications')
+        fetch('/api/publications', { next: { revalidate: 3600 } })
             .then((res) => res.json())
             .then((data) => {
             setData(data)
