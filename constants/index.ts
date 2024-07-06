@@ -100,4 +100,9 @@ export const CERTIFICATIONS = [
     image: "/certifications/certification-3.png",
     url: "https://www.credly.com/badges/77fe2ab5-d1d7-4418-ad34-75cd79999161"
   },
+  {
+    name: "Professional Data Engineer",
+    image: "/certifications/certification-4.png",
+    url: "https://www.credly.com/badges/e6b27c57-1b61-4ae4-aa16-f69eef7c57ad"
+  },
 ]
