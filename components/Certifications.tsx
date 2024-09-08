@@ -22,7 +22,7 @@ const iconVariants = (duration: number): Variants => ({
 
 const Certifications = () => {
   return (
-    <div className="border-b border-neutral-800 lg:pt-12 lg:pb-16 py-4">
+    <div id="certifications" className="border-b border-neutral-800 lg:pt-12 lg:pb-16 py-4">
       <TitleText title="Certifications" width="w-[200px]" />
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}

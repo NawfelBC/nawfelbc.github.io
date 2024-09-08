@@ -79,7 +79,7 @@ const technologies_list = [
 
 const Technologies = () => {
   return (
-    <div className="border-b border-neutral-800 py-16">
+    <div id="technologies" className="border-b border-neutral-800 py-16">
       <TitleText title="Technologies" width="w-[180px]" />
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
