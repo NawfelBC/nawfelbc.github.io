@@ -29,6 +29,17 @@ export const EXPERIENCES = [
     technologies: ["Python", "ETL", "PostgreSQL", "Prefect", "AWS"],
   },
   {
+    year: "2024 - Present",
+    role: "Data Engineer",
+    company: "Harmonic AI",
+    company_website: "https://www.harmonic.fun",
+    description: [
+      "Led the development of AI systems to build an advanced mathematical reasoning engine.",
+      "Developed ETL pipelines to extract mathematical problems from various sources and textbooks."
+    ],
+    technologies: ["AI", "ETL", "SQLite", "AWS"],
+  },
+  {
     year: "2023 - Present",
     role: "Data Engineer",
     company: "Astrafy",
