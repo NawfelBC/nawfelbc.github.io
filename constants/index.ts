@@ -11,25 +11,26 @@ export const MontserratFont = Montserrat({
   subsets: ["latin"]
 })
 
-export const HERO_CONTENT = `I am a passionate Data Engineer with a knack for crafting robust and scalable data solutions. With 2 years of hands-on experience, I have honed my skills in modern data stack technologies like dbt, Airflow, Airbyte, as well as backend technologies like PostgreSQL and BigQuery. My goal is to leverage my expertise to create innovative data solutions that drive business growth and deliver deep insights.`;
+export const HERO_CONTENT = `I am a passionate engineer with a knack for crafting robust and scalable data solutions. With more than 4 years of hands-on experience, I have honed my skills in modern data stack technologies like dbt, Airflow, Airbyte, as well as backend technologies like PostgreSQL and BigQuery, and frontend technologies like React, Next.js, and TypeScript. My goal is to leverage my expertise to create innovative data solutions that drive business growth and deliver deep insights.`;
 
 export const ABOUT_TEXT = `In a world driven by data, I strive to write the code that turns numbers into narratives. I specialize in problem-solving, leveraging automation and AI to enhance data accuracy and efficiency. My expertise lies in crafting efficient data pipelines to extract data, model it, transform it and ensure it is always right where it needs to be. I transform complex data challenges into straightforward, effective solutions. Having had the opportunity to be a speaker in the data community, I value the power of sharing knowledge and insights to drive growth and innovation.`;
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
+    year: "2024 - 2025",
     role: "Data Engineer",
     company: "Argon AI",
     company_website: "https://www.argon-ai.com",
     description: [
       "Developed ETL pipelines to integrate clinical trial, approved drugs and biopharma daily news data.",
       "Enabled AI systems to respond efficiently to user queries regarding biopharmaceuticals topics.",
-      "Ensured seamless flow of information for data analysis and interpretation."
+      "Ensured seamless flow of information for data analysis and interpretation.",
+      "Built a Next.js web application to deliver AI-powered insights, enabling efficient user queries on biopharmaceutical topics."
     ],
-    technologies: ["Python", "ETL", "PostgreSQL", "Prefect", "AWS"],
+    technologies: ["Python", "ETL", "PostgreSQL", "Prefect", "AWS", "Next.js", "TypeScript"],
   },
   {
-    year: "2024 - Present",
+    year: "2024 - 2025",
     role: "Data Engineer",
     company: "Harmonic AI",
     company_website: "https://www.harmonic.fun",
@@ -40,7 +41,7 @@ export const EXPERIENCES = [
     technologies: ["AI", "ETL", "SQLite", "AWS"],
   },
   {
-    year: "2023 - Present",
+    year: "2023 - 2025",
     role: "Data Engineer",
     company: "Astrafy",
     company_website: "https://astrafy.io",
