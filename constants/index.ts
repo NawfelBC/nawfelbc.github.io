@@ -17,6 +17,19 @@ export const ABOUT_TEXT = `In a world driven by data, I strive to write the code
 
 export const EXPERIENCES = [
   {
+    year: "2025",
+    role: "Full Stack Engineer",
+    company: "Ecomflow",
+    company_website: "https://www.ecomflow.com",
+    description: [
+      "Engineered key components of an e-commerce operations platform for a global 3PL company with real-time inventory tracking enabling over 150+ DTC brands to streamline inventory management and ship products to 65+ countries.",
+      "Architected admin systems for fulfillment operations across 65+ countries with multi-carrier tracking integration.",
+      "Implemented financial systems with accounting integration for automated invoicing and supply chain reporting.",
+      "Developed secure role-based access systems with data tools for warehouse and inventory management.",
+    ],
+    technologies: ["Next.js", "TypeScript", "PlanetScale", "Inngest", "Vercel", "Shopify"],
+  },
+  {
     year: "2024 - 2025",
     role: "Data Engineer",
     company: "Argon AI",
